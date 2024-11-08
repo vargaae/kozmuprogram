@@ -1,0 +1,14 @@
+Típus: Gáz
+Dátum: 2024-10-27
+Elõzõ érték: 13463
+Új érték: 13643
+Fogyasztás: 180
+Számla összeg: 9630 Ft
+---------------
+Típus: Áram
+Dátum: 2024-10-27
+Elõzõ érték: 100
+Új érték: 200
+Fogyasztás: 100
+Számla összeg: 10000 Ft
+---------------
