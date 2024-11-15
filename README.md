@@ -65,7 +65,7 @@ python main.py
 
 ```
 
-**Fejlesztés másolat - timestamp külön kerüljön a leolvasás napjától**
+**Fejlesztés másolat - utolsó mentés timestamp-je külön kerüljön a leolvasás napjától**
 
 ```bash
 python kozmu.py
