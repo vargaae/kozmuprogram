@@ -38,8 +38,8 @@ def add_record():
     utility_type = utility_type_var.get()
     previous_reading = int(previous_reading_entry.get())
     current_reading = int(current_reading_entry.get())
-    bill_amount = int(bill_amount_entry.get())
-    # date = datetime.now().strftime("%Y-%m-%d")
+    bill_amount = (bill_amount_entry.get())
+    # TODO:  date = datetime.now().strftime("%Y-%m-%d")
     save_date = datetime.now().strftime("%Y-%m-%d")
 
     # Fogyasztás kiszámítása
@@ -47,7 +47,7 @@ def add_record():
 
     # Új rekord mentése a listába és a fájlba
     new_record = [utility_type, previous_reading, current_reading, consumption, bill_amount, save_date]
-    # new_record = [utility_type, save_date, previous_reading, current_reading, consumption, bill_amount, date]
+    # TODO: new_record = [utility_type, save_date, previous_reading, current_reading, consumption, bill_amount, date]
     records.append(new_record)
     tree.insert("", tk.END, values=new_record)
     save_data()
@@ -69,7 +69,7 @@ def edit_record():
     current_reading_entry.insert(0, values[2])
     bill_amount_entry.delete(0, tk.END)
     bill_amount_entry.insert(0, values[3])
-    # bill_amount_entry.insert(0, values[4])
+    # TODO:  bill_amount_entry.insert(0, values[4])
 
     # A rekord eltávolítása a listából és a táblából
     records.remove(values)
@@ -114,7 +114,7 @@ save_button.grid(row=4, column=2, pady=10)
 
 # Táblázat az adatok megjelenítéséhez
 tree = ttk.Treeview(root, columns=("utility_type", "previous_reading", "current_reading", "consumption", "bill_amount", "save_date"), show="headings")
-# tree = ttk.Treeview(root, columns=("utility_type", "previous_reading", "current_reading", "consumption", "bill_amount", "date", "save_date"), show="headings")
+# TODO: tree = ttk.Treeview(root, columns=("utility_type", "previous_reading", "current_reading", "consumption", "bill_amount", "date", "save_date"), show="headings")
 tree.heading("utility_type", text="Közmű típusa")
 tree.heading("previous_reading", text="Előző érték")
 tree.heading("current_reading", text="Új érték")
