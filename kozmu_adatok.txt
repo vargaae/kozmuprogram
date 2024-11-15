@@ -12,3 +12,10 @@ Elõzõ érték: 100
 Fogyasztás: 100
 Számla összeg: 10000 Ft
 ---------------
+Típus: Áram
+Dátum: 2024-11-12
+Elõzõ érték: 13463
+Új érték: 13643
+Fogyasztás: 180
+Számla összeg: 10000 Ft
+---------------

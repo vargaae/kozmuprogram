@@ -5,7 +5,7 @@
   <div align="center">
     <img src="https://img.shields.io/badge/-Python-black?style=for-the-badge&logoColor=white&logo=python&color=61DAFB" alt="Python" />
 
-# Közmű APPLICATION
+# Közmű APPLICATION v1 - Magyar nyelvű
 
 Egy Python-alapú, grafikus felületet biztosító program a közműdiktálások kezelésére. A program PyQt5 könyvtárat használ a vizuális megjelenítéshez, és minden diktálási adatot egy TXT fájlban tárol.
 
